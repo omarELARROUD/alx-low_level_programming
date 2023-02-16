@@ -1,7 +1,5 @@
 #include <stdio.h>
-/**
- * this program print a quote
- */
+/* this program print a quote */
 int main(void)
 {
 /**
