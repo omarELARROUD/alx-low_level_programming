@@ -1,7 +1,9 @@
 #include <stdio.h>
 /* this program print a quote */
 
-/* main */
+/*
+ *  main 
+ */
 int main(void)
 {
 /* main function to print sentence */
