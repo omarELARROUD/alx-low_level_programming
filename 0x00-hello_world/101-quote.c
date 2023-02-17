@@ -7,7 +7,7 @@
  */
 int main(void)
 {
-	char *message = "and that piece of art is useful\" - Dora Korpar, 2015-10-19\n";
+	char *message ="and that piece of art is useful\"- Dora Korpar, 2015-10-19\n";
 
     /* Write the message to standard error using write() */
 	write(2, message, 59);
