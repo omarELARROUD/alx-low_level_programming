@@ -1,5 +1,6 @@
 #include <stdio.h>
 #include <math.h>
+
 /**
  * main - the fizz buzz program
  *
@@ -35,7 +36,9 @@ int main(void)
 		}
 	}
 	if (num>4)
+	{
 		maxPrime = num;
+	}
 	printf("%ld\n", maxPrime);
 	return (0);
 }
