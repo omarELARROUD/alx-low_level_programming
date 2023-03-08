@@ -25,10 +25,4 @@ int is_palindrome_helper(char *s, char *end)
  */
 int is_palindrome(char *s)
 {
-	char *end = s;
-
-	while (*end)
-		end++;
-	end--;
-	return (is_palindrome_helper(s, end));
-}
+	}
