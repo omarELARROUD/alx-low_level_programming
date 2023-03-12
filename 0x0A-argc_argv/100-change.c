@@ -12,7 +12,6 @@
 
 int main(int argc, char *argv[])
 {
-
     int cents, coins = 0;
 
     if (argc != 2) {
@@ -41,4 +40,3 @@ int main(int argc, char *argv[])
     printf("%d\n", coins);
     return 0;
 }
-
