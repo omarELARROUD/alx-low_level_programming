@@ -1,8 +1,18 @@
 #include <stdio.h>
 #include <stdlib.h>
 
+/**
+ * main - a program that adds positive numbers
+ *
+ * @argc: number of arguments
+ * @argv: array containing arguments strings
+ *
+ * Return: Always 0 (Success)
+ */
+
 int main(int argc, char *argv[])
 {
+
     int cents, coins = 0;
 
     if (argc != 2) {
@@ -26,11 +36,9 @@ int main(int argc, char *argv[])
     coins += cents / 5;
     cents %= 5;
 
-    coins += cents / 2;
-    cents %= 2;
-
     coins += cents;
 
     printf("%d\n", coins);
     return 0;
 }
+
